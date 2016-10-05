@@ -320,7 +320,11 @@ var barchart_and_map = (function () {
 					nvd3Chart.legend.dispatch.on('legendDblclick', function (event) {
 						var newTripMode = event.key;
 						console.log('legend legendDblclick on trip mode: ' + newTripMode);
+<<<<<<< HEAD
 						$('#current-trip-mode').val(newTripMode);
+=======
+						$('#mode-share-by-county-current-trip-mode').val(newTripMode);
+>>>>>>> 8dbf49a3dac2aa2ab45ee80a92b05b05f1f9b354
 						updateCurrentTripModeOrClassification();
 						redrawMap();
 					});
@@ -648,7 +652,11 @@ var barchart_and_map = (function () {
 
 	function updateBubbles() {
 		"use strict";
+<<<<<<< HEAD
 		bubblesShowing = $("#mode-share-by-county-ubbles").is(":checked");
+=======
+		bubblesShowing = $("#mode-share-by-county-bubbles").is(":checked");
+>>>>>>> 8dbf49a3dac2aa2ab45ee80a92b05b05f1f9b354
 		console.log('updateBubbles: bubblesShowing=' + bubblesShowing);
 		if (circlesLayerGroup == undefined) {
 			//first time must initalize by creating and adding to map
@@ -664,7 +672,11 @@ var barchart_and_map = (function () {
 			var eastBound = map.getBounds().getEast();
 			var centerEast = L.latLng(mapCenter.lat, eastBound);
 			var bubbleMultiplier = parseInt($("#mode-share-by-county-bubble-size").val());
+<<<<<<< HEAD
 			var mapBounds = d3.select("#map").node().getBoundingClientRect();
+=======
+			var mapBounds = d3.select("#mode-share-by-county-map").node().getBoundingClientRect();
+>>>>>>> 8dbf49a3dac2aa2ab45ee80a92b05b05f1f9b354
 			var mapRadiusInPixels = mapBounds.width / 2;
 			var maxBubbleRadiusInPixels = mapRadiusInPixels / 10;
 			var maxBubbleSize = bubbleMultiplier * maxBubbleRadiusInPixels;

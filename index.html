@@ -10,7 +10,11 @@
 	<script>
 		d3.csv("data/scenarios.csv", function (data) {
 			$.each(data, function (key, value) {
+<<<<<<< HEAD
 				$("#scenarios").append("<li><a href='scenario/index.html?scenario=" + value["Scenario"] + "'>" + value["Scenario"] + "</a></li>");
+=======
+				$("#scenarios").append("<li><a href='scenario/index.html?scenario=" + value["Scenario"] + "'>" + value["Scenario"] + value["Description"] + "</a></li>");
+>>>>>>> 8dbf49a3dac2aa2ab45ee80a92b05b05f1f9b354
 			});
 		});
 	</script>
