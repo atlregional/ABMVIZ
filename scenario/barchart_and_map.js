@@ -331,13 +331,8 @@ var barchart_and_map = (function () {
 					//nvd3Chart.legend.vers('furious');
 					return nvd3Chart;
 				} //end generate
-
-<<<<<<< HEAD
-			, callback: function (newGraph) {
-=======
 			,
 			callback: function (newGraph) {
->>>>>>> 378038d9874d5d9ab25a2d106a156a8c28098cbe
 					console.log("nv.addGraph callback called");
 					extNvd3Chart = newGraph;
 					updateChart(function () {
