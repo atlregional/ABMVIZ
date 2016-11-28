@@ -1,5 +1,4 @@
-# ABMVIZ_P - The Private Repository for Internal Testing at ARC
-ARC ABMVIZ HTML 5
+# ARC ABMVIZ HTML 5
 
 # Adding New Scenario Data
 1. Add the scenario name to the scenarios.csv definition file in the data folder
