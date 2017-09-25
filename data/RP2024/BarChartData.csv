@@ -1,0 +1,23 @@
+Person Group,Day Pattern,Count
+Child too young for school,H,115357
+Child too young for school,M,205801
+Child too young for school,N,173215
+Full-time worker,H,359483
+Full-time worker,M,1942613
+Full-time worker,N,349038
+Non-worker,H,258079
+Non-worker,N,423875
+Part-time worker,H,81028
+Part-time worker,M,323102
+Part-time worker,N,189025
+Retired,H,333268
+Retired,N,348580
+Student of driving age,H,21808
+Student of driving age,M,175035
+Student of driving age,N,16096
+Student of non-driving age,H,61121
+Student of non-driving age,M,685499
+Student of non-driving age,N,66977
+University student,H,41989
+University student,M,136511
+University student,N,52098
