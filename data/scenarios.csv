@@ -1,5 +1,5 @@
 Scenario,Description
-BASE10, - Base year 2010
+BS10, - Base year 2010
 RP2015, - Regional Plan 2015
 RP2017, - Regional Plan 2017
 RP2020, - Regional Plan 2020
@@ -7,3 +7,4 @@ RP2024, - Regional Plan 2024
 RP2030, - Regional Plan 2030
 RP2040, - Regional Plan 2040
 NB2040, - No-Build 2040
+RP2040-NB2040, - Regional Plan 2040 minus No-Build 2040
