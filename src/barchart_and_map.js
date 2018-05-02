@@ -60,7 +60,7 @@ var barchart_and_map = (function () {
 		"fillOpacity": 1.0
 	};
 	$("#scenario-header").html("Scenario " + abmviz_utilities.GetURLParameter("scenario"));
-	//start off chain of initialization by reading in the data	
+	//start off chain of initialization by reading in the data
 	function readInDataCallback() {
 		createMap(function () {
 			console.log("createMap callback")
@@ -71,7 +71,7 @@ var barchart_and_map = (function () {
 		createEmptyChart();
 		initializeMuchOfUI();
 	}; //end readInDataCallback
-	//start off chain of initialization by reading in the data	
+	//start off chain of initialization by reading in the data
 	readInData(readInDataCallback);
 
 	function redrawMap() {
@@ -662,7 +662,7 @@ var barchart_and_map = (function () {
 			clickoutFiresChange: true,
 			palette: palette,
 			// 			change: function (color) {
-			// 				//BUG this gets called when user still clicking in color chooser (despite docs) See 
+			// 				//BUG this gets called when user still clicking in color chooser (despite docs) See
 			// 				//https://github.com/bgrins/spectrum/issues/289
 			// 				console.log("bubble-color spectrum change called with color:" + color);
 			// 				bubbleColor = color;

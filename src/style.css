@@ -1,7 +1,7 @@
 body {
 	padding-top: 50px;
+	padding-bottom: 10px;
 }
-
 
 .right-border {
 	border-right: 1px dashed #333;
@@ -53,3 +53,6 @@ body {
 .ui-widget-header .ui-state-disabled {
 	opacity: 1;
 }
+
+
+

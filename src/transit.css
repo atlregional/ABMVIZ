@@ -1,0 +1,21 @@
+.transitInput {
+  margin-bottom: 10px;
+}
+#transitSlider {
+  border: 0px;
+  width: 100%;
+}
+#transitTooltip {
+  position: absolute;
+  text-align: center;
+  min-width: 60px;
+  height: 23px;
+  padding: 5px 10px;
+  font: 12px sans-serif;
+  background: #000;
+  color: #fff;
+  border: 0px;
+  border-radius: 4px;
+  pointer-events: none;
+  z-index: 1000;
+}
